@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\baltusmec\\Desktop\\Yeni klas\u00F6r (2)\\Stock_Tracking_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5397DD9E-AD8F-4639-9702-F6730F5C8660}|Kasa\\Kasa.csproj|C:\\Users\\baltusmec\\Desktop\\Yeni klas\u00F6r (2)\\Stock_Tracking_System\\kasa\\home_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5397DD9E-AD8F-4639-9702-F6730F5C8660}|Kasa\\Kasa.csproj|solutionrelative:kasa\\home_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5397DD9E-AD8F-4639-9702-F6730F5C8660}|Kasa\\Kasa.csproj|c:\\users\\baltusmec\\desktop\\yeni klas\u00F6r (2)\\stock_tracking_system\\kasa\\home_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5397DD9E-AD8F-4639-9702-F6730F5C8660}|Kasa\\Kasa.csproj|solutionrelative:kasa\\home_screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5397DD9E-AD8F-4639-9702-F6730F5C8660}|Kasa\\Kasa.csproj|C:\\Users\\baltusmec\\Desktop\\Yeni klas\u00F6r (2)\\Stock_Tracking_System\\kasa\\add_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5397DD9E-AD8F-4639-9702-F6730F5C8660}|Kasa\\Kasa.csproj|solutionrelative:kasa\\add_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5397DD9E-AD8F-4639-9702-F6730F5C8660}|Kasa\\Kasa.csproj|C:\\Users\\baltusmec\\Desktop\\Yeni klas\u00F6r (2)\\Stock_Tracking_System\\kasa\\home_screen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5397DD9E-AD8F-4639-9702-F6730F5C8660}|Kasa\\Kasa.csproj|solutionrelative:kasa\\home_screen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5397DD9E-AD8F-4639-9702-F6730F5C8660}|Kasa\\Kasa.csproj|C:\\Users\\baltusmec\\Desktop\\Yeni klas\u00F6r (2)\\Stock_Tracking_System\\kasa\\add_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5397DD9E-AD8F-4639-9702-F6730F5C8660}|Kasa\\Kasa.csproj|solutionrelative:kasa\\add_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5397DD9E-AD8F-4639-9702-F6730F5C8660}|Kasa\\Kasa.csproj|C:\\Users\\baltusmec\\Desktop\\Yeni klas\u00F6r (2)\\Stock_Tracking_System\\kasa\\baglan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5397DD9E-AD8F-4639-9702-F6730F5C8660}|Kasa\\Kasa.csproj|solutionrelative:kasa\\baglan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Add_Product.cs",
+              "DocumentMoniker": "C:\\Users\\baltusmec\\Desktop\\Yeni klas\u00F6r (2)\\Stock_Tracking_System\\Kasa\\Add_Product.cs",
+              "RelativeDocumentMoniker": "Kasa\\Add_Product.cs",
+              "ToolTip": "C:\\Users\\baltusmec\\Desktop\\Yeni klas\u00F6r (2)\\Stock_Tracking_System\\Kasa\\Add_Product.cs",
+              "RelativeToolTip": "Kasa\\Add_Product.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T19:07:49.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "baglan.cs",
+              "DocumentMoniker": "C:\\Users\\baltusmec\\Desktop\\Yeni klas\u00F6r (2)\\Stock_Tracking_System\\Kasa\\baglan.cs",
+              "RelativeDocumentMoniker": "Kasa\\baglan.cs",
+              "ToolTip": "C:\\Users\\baltusmec\\Desktop\\Yeni klas\u00F6r (2)\\Stock_Tracking_System\\Kasa\\baglan.cs",
+              "RelativeToolTip": "Kasa\\baglan.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T19:07:36.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Add_Product.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\baltusmec\\Desktop\\Yeni klas\u00F6r (2)\\Stock_Tracking_System\\Kasa\\Add_Product.cs",
+              "RelativeDocumentMoniker": "Kasa\\Add_Product.cs",
+              "ToolTip": "C:\\Users\\baltusmec\\Desktop\\Yeni klas\u00F6r (2)\\Stock_Tracking_System\\Kasa\\Add_Product.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Kasa\\Add_Product.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T19:07:15.763Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home_Screen.cs",
+              "DocumentMoniker": "C:\\Users\\baltusmec\\Desktop\\Yeni klas\u00F6r (2)\\Stock_Tracking_System\\Kasa\\Home_Screen.cs",
+              "RelativeDocumentMoniker": "Kasa\\Home_Screen.cs",
+              "ToolTip": "C:\\Users\\baltusmec\\Desktop\\Yeni klas\u00F6r (2)\\Stock_Tracking_System\\Kasa\\Home_Screen.cs",
+              "RelativeToolTip": "Kasa\\Home_Screen.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAlwJQAAACHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T19:04:00.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home_Screen.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\baltusmec\\Desktop\\Yeni klas\u00F6r (2)\\Stock_Tracking_System\\Kasa\\Home_Screen.Designer.cs",
+              "RelativeDocumentMoniker": "Kasa\\Home_Screen.Designer.cs",
+              "ToolTip": "C:\\Users\\baltusmec\\Desktop\\Yeni klas\u00F6r (2)\\Stock_Tracking_System\\Kasa\\Home_Screen.Designer.cs",
+              "RelativeToolTip": "Kasa\\Home_Screen.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T19:03:38.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home_Screen.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\baltusmec\\Desktop\\Yeni klas\u00F6r (2)\\Stock_Tracking_System\\Kasa\\Home_Screen.cs",
+              "RelativeDocumentMoniker": "Kasa\\Home_Screen.cs",
+              "ToolTip": "C:\\Users\\baltusmec\\Desktop\\Yeni klas\u00F6r (2)\\Stock_Tracking_System\\Kasa\\Home_Screen.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Kasa\\Home_Screen.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T19:03:35.13Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

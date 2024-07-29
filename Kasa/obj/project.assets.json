@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {
+    "net8.0-windows7.0": {
       "Google.Protobuf/3.19.4": {
         "type": "package",
         "compile": {
@@ -108,16 +108,16 @@
           "System.Text.Encoding.CodePages": "4.4.0"
         },
         "compile": {
-          "lib/net6.0/MySql.Data.dll": {
+          "lib/net7.0/MySql.Data.dll": {
             "related": ".xml"
           },
-          "lib/net6.0/ZstdNet.dll": {}
+          "lib/net7.0/ZstdNet.dll": {}
         },
         "runtime": {
-          "lib/net6.0/MySql.Data.dll": {
+          "lib/net7.0/MySql.Data.dll": {
             "related": ".xml"
           },
-          "lib/net6.0/ZstdNet.dll": {}
+          "lib/net7.0/ZstdNet.dll": {}
         }
       },
       "MySqlBackup.NET/2.3.7": {
@@ -931,42 +931,42 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": [
+    "net8.0-windows7.0": [
       "MySql.Data >= 8.0.31",
       "MySqlBackup.NET >= 2.3.7"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yesil\\.nuget\\packages\\": {},
-    "G:\\Programs\\Visual Studio\\Paylaşılan Bileşenler\\NuGetPackages": {}
+    "C:\\Users\\baltusmec\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Çalışmalar\\Programlar\\Kasa\\Kasa\\Kasa.csproj",
+      "projectUniqueName": "C:\\Users\\baltusmec\\Desktop\\Yeni klasör (2)\\Stock_Tracking_System\\Kasa\\Kasa.csproj",
       "projectName": "Kasa",
-      "projectPath": "F:\\Çalışmalar\\Programlar\\Kasa\\Kasa\\Kasa.csproj",
-      "packagesPath": "C:\\Users\\yesil\\.nuget\\packages\\",
-      "outputPath": "F:\\Çalışmalar\\Programlar\\Kasa\\Kasa\\obj\\",
+      "projectPath": "C:\\Users\\baltusmec\\Desktop\\Yeni klasör (2)\\Stock_Tracking_System\\Kasa\\Kasa.csproj",
+      "packagesPath": "C:\\Users\\baltusmec\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\baltusmec\\Desktop\\Yeni klasör (2)\\Stock_Tracking_System\\Kasa\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "G:\\Programs\\Visual Studio\\Paylaşılan Bileşenler\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\yesil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\baltusmec\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows"
+        "net8.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows7.0",
           "projectReferences": {}
         }
       },
@@ -974,11 +974,16 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
-      "net6.0-windows7.0": {
-        "targetAlias": "net6.0-windows",
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows7.0",
         "dependencies": {
           "MySql.Data": {
             "target": "Package",
@@ -1008,7 +1013,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

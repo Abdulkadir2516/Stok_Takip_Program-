@@ -68,10 +68,11 @@ namespace Kasa
         {
 
 
-            if(e.KeyCode == Keys.F7)
+            if (e.KeyCode == Keys.F7)
             {
                 onayla();
             }
+
 
             if (e.KeyCode == Keys.Enter)
             {
@@ -166,6 +167,7 @@ namespace Kasa
                         unit_cost.Text = icerik[3].ToString();
                         piece.Text = adet.ToString();
                         amount.Text = tutar.ToString();
+                        
 
 
                         // adet, icerik[2].ToString(), icerik[3].ToString(), tutar);
@@ -189,10 +191,10 @@ namespace Kasa
                         barcode.Clear();
 
                     }
-                    
+
                 }
 
-                MySqlDataReader content = nesne.contents("Select sum(Tutar) FROM anlýk_satýs WHERE ýd = '" + satislar.Name.ToString() + "'"); 
+                MySqlDataReader content = nesne.contents("Select sum(Tutar) FROM anlýk_satýs WHERE ýd = '" + satislar.Name.ToString() + "'");
 
                 total.Text = content[0].ToString();
 
@@ -200,7 +202,7 @@ namespace Kasa
                 barcode.Focus();
 
                 satislar.DataSource = nesne.fill_table("Select Tarih, Saat, Barkod, Ürün_adý as Ürün_Adý , Adet, Birim, Satis_Fiyati as Birim_Fiyatý, Tutar FROM anlýk_satýs WHERE ýd = '" + satislar.Name.ToString() + "'  order by saat Desc", "anlýk_satýs");
-                
+
 
 
             }
@@ -222,7 +224,7 @@ namespace Kasa
                 MySqlConnection baglan = nesne.path;
 
                 DataGridView satislar = islem(tabControl);
-                
+
                 baglan.Open();
 
                 float sayi = (float)Convert.ToDouble(Interaction.InputBox("Tanýmsýz Barkod Giriþi", "Fiyat Giriniz:"));
@@ -232,7 +234,7 @@ namespace Kasa
                     try
                     {
                         MySqlCommand komut = new MySqlCommand("INSERT INTO anlýk_satýs Values(@id, @Tarih, @Saat, @Barkod_No, @Ürün_Adý, @Adedi, @Birimi,@Alýs_Fiyatý ,@Satýs_Fiyatý, @Tutarý)", baglan);
-                        komut.Parameters.AddWithValue("@id",satislar.Name.ToString());
+                        komut.Parameters.AddWithValue("@id", satislar.Name.ToString());
                         komut.Parameters.AddWithValue("@Tarih", Convert.ToDateTime(DateTime.Now.ToShortDateString()).ToString("yyyy-MM-dd"));
                         komut.Parameters.AddWithValue("@Saat", Convert.ToDateTime(DateTime.Now.ToLongTimeString()).ToString("HH:mm"));
                         komut.Parameters.AddWithValue("@Barkod_No", "99");
@@ -356,7 +358,7 @@ namespace Kasa
             return toplam;
 
         }
-       
+
 
         private void tablo_doldur()
         {
@@ -379,6 +381,9 @@ namespace Kasa
 
             tablo_doldur();
 
+            //product_find.Visible = false;
+
+
 
             barcode.Focus();
 
@@ -396,7 +401,7 @@ namespace Kasa
         private void tabControl_SelectedIndexChanged(object sender, EventArgs e)
         {
             DataGridView satislar = islem(tabControl);
-            
+
             baglan nesne = new baglan();
 
             MySqlDataReader content = nesne.contents("Select sum(Tutar) FROM anlýk_satýs WHERE ýd = '" + satislar.Name.ToString() + "'");
@@ -414,12 +419,12 @@ namespace Kasa
             baglan.query_run("INSERT INTO gunluk_satýs " +
                 "SELECT Tarih, Saat, Barkod, Ürün_adý, Adet, Birim, Alis_Fiyat, Satis_Fiyati, Tutar " +
                 "FROM anlýk_satýs " +
-                "WHERE ýd= '"+satislar.Name.ToString()+"' and Barkod <> '99'");
+                "WHERE ýd= '" + satislar.Name.ToString() + "' and Barkod <> '99'");
 
 
             for (int i = 0; i < satislar.Rows.Count; i++)
             {
-                baglan.query_run("Update mfw_gold_stoklar set Stok_Miktarý = Stok_Miktarý-" + satislar.Rows[i].Cells[4].Value + " where Barkod_No = '" + satislar.Rows[i].Cells[2].Value + "' ");           
+                baglan.query_run("Update mfw_gold_stoklar set Stok_Miktarý = Stok_Miktarý-" + satislar.Rows[i].Cells[4].Value + " where Barkod_No = '" + satislar.Rows[i].Cells[2].Value + "' ");
             }
 
             baglan.query_run("delete from anlýk_satýs WHERE ýd= '" + satislar.Name.ToString() + "'");
@@ -472,7 +477,7 @@ namespace Kasa
             folderBrowserDialog1.ShowDialog();
 
             string yol = folderBrowserDialog1.SelectedPath;
-          
+
             baglan yedek = new baglan();
             yedek.backup(yol);
         }
@@ -489,14 +494,14 @@ namespace Kasa
 
         private void Ana_Ekran_KeyDown(object sender, KeyEventArgs e)
         {
-            if(e.KeyCode == Keys.F7)
+            if (e.KeyCode == Keys.F7)
             {
                 onayla();
 
             }
         }
 
-        
+
 
 
         private void sil_Click(object sender, EventArgs e)
@@ -505,10 +510,10 @@ namespace Kasa
 
             DataGridView satislar = islem(tabControl);
 
-            baglan.delete("Delete from anlýk_satýs Where ýd = '"+ satislar.Name.ToString() +"' and barkod ='" + satislar.SelectedRows[0].Cells[2].Value + "' and adet = '"+ satislar.SelectedRows[0].Cells[4].Value + "' and saat = '"+ satislar.SelectedRows[0].Cells[1].Value + "'");
+            baglan.delete("Delete from anlýk_satýs Where ýd = '" + satislar.Name.ToString() + "' and barkod ='" + satislar.SelectedRows[0].Cells[2].Value + "' and adet = '" + satislar.SelectedRows[0].Cells[4].Value + "' and saat = '" + satislar.SelectedRows[0].Cells[1].Value + "'");
 
 
-            satislar.DataSource = baglan.fill_table("Select Tarih, Saat, Barkod, Ürün_adý as Ürün_Adý , Adet, Birim, Satis_Fiyati as Birim_Fiyatý, Tutar FROM anlýk_satýs WHERE ýd = '" + satislar.Name.ToString() + "'", "anlýk_satýs");
+            satislar.DataSource = baglan.fill_table("Select Tarih, Saat, Barkod, Ürün_adý as Ürün_Adý , Adet, Birim, Satis_Fiyati as Birim_Fiyatý, Tutar FROM anlýk_satýs WHERE ýd = '" + satislar.Name.ToString() + "' order by saat desc", "anlýk_satýs");
 
             total.Text = total_amount(satislar, 7).ToString();
 
@@ -526,11 +531,11 @@ namespace Kasa
             sayi = sayi.Replace(",", ".");
 
 
-            baglan.query_run("update anlýk_satýs set Satis_Fiyati = '"+sayi+ "', Tutar = Adet * Satis_Fiyati " +
-                "Where ýd = '"+ satislar.Name.ToString() +"' and barkod ='" + satislar.SelectedRows[0].Cells[2].Value + "' and adet = '"+ satislar.SelectedRows[0].Cells[4].Value + "' ");
+            baglan.query_run("update anlýk_satýs set Satis_Fiyati = '" + sayi + "', Tutar = Adet * Satis_Fiyati " +
+                "Where ýd = '" + satislar.Name.ToString() + "' and barkod ='" + satislar.SelectedRows[0].Cells[2].Value + "' and adet = '" + satislar.SelectedRows[0].Cells[4].Value + "' ");
 
 
-            satislar.DataSource = baglan.fill_table("Select Tarih, Saat, Barkod, Ürün_adý as Ürün_Adý , Adet, Birim, Satis_Fiyati as Birim_Fiyatý, Tutar FROM anlýk_satýs WHERE ýd = '" + satislar.Name.ToString() + "'", "anlýk_satýs");
+            satislar.DataSource = baglan.fill_table("Select Tarih, Saat, Barkod, Ürün_adý as Ürün_Adý , Adet, Birim, Satis_Fiyati as Birim_Fiyatý, Tutar FROM anlýk_satýs WHERE ýd = '" + satislar.Name.ToString() + "' order by saat desc", "anlýk_satýs");
 
             total.Text = total_amount(satislar, 7).ToString();
 
@@ -543,9 +548,49 @@ namespace Kasa
 
             DataGridView satislar = islem(tabControl);
 
-            excel tablo = new excel(); 
+            excel tablo = new excel();
 
             tablo.Excel_Disa_Aktar(satislar);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox4_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void productName_TextChanged(object sender, EventArgs e)
+        {
+            baglan baglan = new baglan();
+            dataGridView6.DataSource = baglan.fill_table("Select * from mfw_gold_stoklar where Ürün_adý like '%" + productName.Text + "%'", "mfw_gold_stoklar");
+
+        }
+
+        private void dataGridView6_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dataGridView6_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                barcode.Text = dataGridView6.SelectedRows[0].Cells[0].Value.ToString();
+            }
+            barcode.Focus();
+
+        }
+
+        private void dataGridView6_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            
+            barcode.Text = dataGridView6.SelectedRows[0].Cells[0].Value.ToString();
+            
+            barcode.Focus();
         }
     }
 }

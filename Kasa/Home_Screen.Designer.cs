@@ -28,558 +28,591 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ana_Ekran));
-            this.tabControl = new System.Windows.Forms.TabControl();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.change_price = new System.Windows.Forms.ToolStripMenuItem();
-            this.sil = new System.Windows.Forms.ToolStripMenuItem();
-            this.exceleAktarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.dataGridView4 = new System.Windows.Forms.DataGridView();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.dataGridView5 = new System.Windows.Forms.DataGridView();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.learn_price = new System.Windows.Forms.Button();
-            this.backup = new System.Windows.Forms.Button();
-            this.sales_cancellation = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.stock = new System.Windows.Forms.Button();
-            this.daily_sales = new System.Windows.Forms.Button();
-            this.add_product = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.barcode = new System.Windows.Forms.TextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.total = new System.Windows.Forms.TextBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.piece = new System.Windows.Forms.Label();
-            this.amount = new System.Windows.Forms.Label();
-            this.unit_cost = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label55 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.product_name = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.approve = new System.Windows.Forms.Button();
-            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
-            this.tabControl.SuspendLayout();
-            this.contextMenuStrip1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
-            this.tabPage4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
-            this.tabPage5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
-            this.panel1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.SuspendLayout();
+            tabControl = new TabControl();
+            contextMenuStrip1 = new ContextMenuStrip(components);
+            change_price = new ToolStripMenuItem();
+            sil = new ToolStripMenuItem();
+            exceleAktarToolStripMenuItem = new ToolStripMenuItem();
+            tabPage1 = new TabPage();
+            dataGridView1 = new DataGridView();
+            tabPage2 = new TabPage();
+            dataGridView2 = new DataGridView();
+            tabPage3 = new TabPage();
+            dataGridView3 = new DataGridView();
+            tabPage4 = new TabPage();
+            dataGridView4 = new DataGridView();
+            tabPage5 = new TabPage();
+            dataGridView5 = new DataGridView();
+            panel1 = new Panel();
+            learn_price = new Button();
+            backup = new Button();
+            sales_cancellation = new Button();
+            button1 = new Button();
+            stock = new Button();
+            daily_sales = new Button();
+            add_product = new Button();
+            groupBox1 = new GroupBox();
+            barcode = new TextBox();
+            groupBox2 = new GroupBox();
+            total = new TextBox();
+            groupBox3 = new GroupBox();
+            piece = new Label();
+            amount = new Label();
+            unit_cost = new Label();
+            label3 = new Label();
+            label55 = new Label();
+            label4 = new Label();
+            product_name = new Label();
+            label1 = new Label();
+            approve = new Button();
+            folderBrowserDialog1 = new FolderBrowserDialog();
+            dataGridView6 = new DataGridView();
+            groupBox4 = new GroupBox();
+            productName = new TextBox();
+            tabControl.SuspendLayout();
+            contextMenuStrip1.SuspendLayout();
+            tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
+            tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
+            tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView4).BeginInit();
+            tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView5).BeginInit();
+            panel1.SuspendLayout();
+            groupBox1.SuspendLayout();
+            groupBox2.SuspendLayout();
+            groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView6).BeginInit();
+            groupBox4.SuspendLayout();
+            SuspendLayout();
             // 
             // tabControl
             // 
-            this.tabControl.AllowDrop = true;
-            this.tabControl.ContextMenuStrip = this.contextMenuStrip1;
-            this.tabControl.Controls.Add(this.tabPage1);
-            this.tabControl.Controls.Add(this.tabPage2);
-            this.tabControl.Controls.Add(this.tabPage3);
-            this.tabControl.Controls.Add(this.tabPage4);
-            this.tabControl.Controls.Add(this.tabPage5);
-            this.tabControl.HotTrack = true;
-            this.tabControl.Location = new System.Drawing.Point(32, 306);
-            this.tabControl.Multiline = true;
-            this.tabControl.Name = "tabControl";
-            this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(1146, 312);
-            this.tabControl.TabIndex = 11;
-            this.tabControl.SelectedIndexChanged += new System.EventHandler(this.tabControl_SelectedIndexChanged);
+            tabControl.AllowDrop = true;
+            tabControl.ContextMenuStrip = contextMenuStrip1;
+            tabControl.Controls.Add(tabPage1);
+            tabControl.Controls.Add(tabPage2);
+            tabControl.Controls.Add(tabPage3);
+            tabControl.Controls.Add(tabPage4);
+            tabControl.Controls.Add(tabPage5);
+            tabControl.HotTrack = true;
+            tabControl.Location = new Point(32, 306);
+            tabControl.Multiline = true;
+            tabControl.Name = "tabControl";
+            tabControl.SelectedIndex = 0;
+            tabControl.Size = new Size(1146, 312);
+            tabControl.TabIndex = 11;
+            tabControl.SelectedIndexChanged += tabControl_SelectedIndexChanged;
             // 
             // contextMenuStrip1
             // 
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.change_price,
-            this.sil,
-            this.exceleAktarToolStripMenuItem});
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(185, 70);
+            contextMenuStrip1.Items.AddRange(new ToolStripItem[] { change_price, sil, exceleAktarToolStripMenuItem });
+            contextMenuStrip1.Name = "contextMenuStrip1";
+            contextMenuStrip1.Size = new Size(185, 70);
             // 
             // change_price
             // 
-            this.change_price.Name = "change_price";
-            this.change_price.Size = new System.Drawing.Size(184, 22);
-            this.change_price.Text = "Ürün Fiyatını Değiştir";
-            this.change_price.Click += new System.EventHandler(this.change_price_Click);
+            change_price.Name = "change_price";
+            change_price.Size = new Size(184, 22);
+            change_price.Text = "Ürün Fiyatını Değiştir";
+            change_price.Click += change_price_Click;
             // 
             // sil
             // 
-            this.sil.Name = "sil";
-            this.sil.Size = new System.Drawing.Size(184, 22);
-            this.sil.Text = "Sil";
-            this.sil.Click += new System.EventHandler(this.sil_Click);
+            sil.Name = "sil";
+            sil.Size = new Size(184, 22);
+            sil.Text = "Sil";
+            sil.Click += sil_Click;
             // 
             // exceleAktarToolStripMenuItem
             // 
-            this.exceleAktarToolStripMenuItem.Name = "exceleAktarToolStripMenuItem";
-            this.exceleAktarToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
-            this.exceleAktarToolStripMenuItem.Text = "Excel\'e Aktar";
-            this.exceleAktarToolStripMenuItem.Click += new System.EventHandler(this.exceleAktarToolStripMenuItem_Click);
+            exceleAktarToolStripMenuItem.Name = "exceleAktarToolStripMenuItem";
+            exceleAktarToolStripMenuItem.Size = new Size(184, 22);
+            exceleAktarToolStripMenuItem.Text = "Excel'e Aktar";
+            exceleAktarToolStripMenuItem.Click += exceleAktarToolStripMenuItem_Click;
             // 
             // tabPage1
             // 
-            this.tabPage1.AllowDrop = true;
-            this.tabPage1.Controls.Add(this.dataGridView1);
-            this.tabPage1.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.tabPage1.Location = new System.Drawing.Point(4, 24);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1138, 284);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "1. Satış";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            tabPage1.AllowDrop = true;
+            tabPage1.Controls.Add(dataGridView1);
+            tabPage1.ImeMode = ImeMode.On;
+            tabPage1.Location = new Point(4, 24);
+            tabPage1.Name = "tabPage1";
+            tabPage1.Padding = new Padding(3);
+            tabPage1.Size = new Size(1138, 284);
+            tabPage1.TabIndex = 0;
+            tabPage1.Text = "1. Satış";
+            tabPage1.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 6);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(1126, 272);
-            this.dataGridView1.StandardTab = true;
-            this.dataGridView1.TabIndex = 0;
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.AllowUserToDeleteRows = false;
+            dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.DisplayedCells;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(6, 6);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.ReadOnly = true;
+            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridView1.Size = new Size(1126, 272);
+            dataGridView1.StandardTab = true;
+            dataGridView1.TabIndex = 0;
             // 
             // tabPage2
             // 
-            this.tabPage2.AllowDrop = true;
-            this.tabPage2.Controls.Add(this.dataGridView2);
-            this.tabPage2.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.tabPage2.Location = new System.Drawing.Point(4, 24);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1138, 284);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "2. Satış";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            tabPage2.AllowDrop = true;
+            tabPage2.Controls.Add(dataGridView2);
+            tabPage2.ImeMode = ImeMode.On;
+            tabPage2.Location = new Point(4, 24);
+            tabPage2.Name = "tabPage2";
+            tabPage2.Padding = new Padding(3);
+            tabPage2.Size = new Size(1138, 284);
+            tabPage2.TabIndex = 1;
+            tabPage2.Text = "2. Satış";
+            tabPage2.UseVisualStyleBackColor = true;
             // 
             // dataGridView2
             // 
-            this.dataGridView2.AllowUserToAddRows = false;
-            this.dataGridView2.AllowUserToDeleteRows = false;
-            this.dataGridView2.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(6, 6);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowTemplate.Height = 25;
-            this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView2.Size = new System.Drawing.Size(1126, 272);
-            this.dataGridView2.StandardTab = true;
-            this.dataGridView2.TabIndex = 1;
+            dataGridView2.AllowUserToAddRows = false;
+            dataGridView2.AllowUserToDeleteRows = false;
+            dataGridView2.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.DisplayedCells;
+            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView2.Location = new Point(6, 6);
+            dataGridView2.Name = "dataGridView2";
+            dataGridView2.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridView2.Size = new Size(1126, 272);
+            dataGridView2.StandardTab = true;
+            dataGridView2.TabIndex = 1;
             // 
             // tabPage3
             // 
-            this.tabPage3.AllowDrop = true;
-            this.tabPage3.Controls.Add(this.dataGridView3);
-            this.tabPage3.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.tabPage3.Location = new System.Drawing.Point(4, 24);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1138, 284);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "3. Satış";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            tabPage3.AllowDrop = true;
+            tabPage3.Controls.Add(dataGridView3);
+            tabPage3.ImeMode = ImeMode.On;
+            tabPage3.Location = new Point(4, 24);
+            tabPage3.Name = "tabPage3";
+            tabPage3.Padding = new Padding(3);
+            tabPage3.Size = new Size(1138, 284);
+            tabPage3.TabIndex = 2;
+            tabPage3.Text = "3. Satış";
+            tabPage3.UseVisualStyleBackColor = true;
             // 
             // dataGridView3
             // 
-            this.dataGridView3.AllowUserToAddRows = false;
-            this.dataGridView3.AllowUserToDeleteRows = false;
-            this.dataGridView3.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(6, 6);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.RowTemplate.Height = 25;
-            this.dataGridView3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView3.Size = new System.Drawing.Size(1126, 272);
-            this.dataGridView3.StandardTab = true;
-            this.dataGridView3.TabIndex = 1;
+            dataGridView3.AllowUserToAddRows = false;
+            dataGridView3.AllowUserToDeleteRows = false;
+            dataGridView3.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.DisplayedCells;
+            dataGridView3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView3.Location = new Point(6, 6);
+            dataGridView3.Name = "dataGridView3";
+            dataGridView3.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridView3.Size = new Size(1126, 272);
+            dataGridView3.StandardTab = true;
+            dataGridView3.TabIndex = 1;
             // 
             // tabPage4
             // 
-            this.tabPage4.AllowDrop = true;
-            this.tabPage4.Controls.Add(this.dataGridView4);
-            this.tabPage4.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.tabPage4.Location = new System.Drawing.Point(4, 24);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1138, 284);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "4. Satış";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            tabPage4.AllowDrop = true;
+            tabPage4.Controls.Add(dataGridView4);
+            tabPage4.ImeMode = ImeMode.On;
+            tabPage4.Location = new Point(4, 24);
+            tabPage4.Name = "tabPage4";
+            tabPage4.Padding = new Padding(3);
+            tabPage4.Size = new Size(1138, 284);
+            tabPage4.TabIndex = 3;
+            tabPage4.Text = "4. Satış";
+            tabPage4.UseVisualStyleBackColor = true;
             // 
             // dataGridView4
             // 
-            this.dataGridView4.AllowUserToAddRows = false;
-            this.dataGridView4.AllowUserToDeleteRows = false;
-            this.dataGridView4.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView4.Location = new System.Drawing.Point(6, 6);
-            this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.RowTemplate.Height = 25;
-            this.dataGridView4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView4.Size = new System.Drawing.Size(1126, 272);
-            this.dataGridView4.StandardTab = true;
-            this.dataGridView4.TabIndex = 1;
+            dataGridView4.AllowUserToAddRows = false;
+            dataGridView4.AllowUserToDeleteRows = false;
+            dataGridView4.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.DisplayedCells;
+            dataGridView4.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView4.Location = new Point(6, 6);
+            dataGridView4.Name = "dataGridView4";
+            dataGridView4.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridView4.Size = new Size(1126, 272);
+            dataGridView4.StandardTab = true;
+            dataGridView4.TabIndex = 1;
             // 
             // tabPage5
             // 
-            this.tabPage5.AllowDrop = true;
-            this.tabPage5.Controls.Add(this.dataGridView5);
-            this.tabPage5.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.tabPage5.Location = new System.Drawing.Point(4, 24);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1138, 284);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "5. Satış";
-            this.tabPage5.UseVisualStyleBackColor = true;
+            tabPage5.AllowDrop = true;
+            tabPage5.Controls.Add(dataGridView5);
+            tabPage5.ImeMode = ImeMode.On;
+            tabPage5.Location = new Point(4, 24);
+            tabPage5.Name = "tabPage5";
+            tabPage5.Padding = new Padding(3);
+            tabPage5.Size = new Size(1138, 284);
+            tabPage5.TabIndex = 4;
+            tabPage5.Text = "5. Satış";
+            tabPage5.UseVisualStyleBackColor = true;
             // 
             // dataGridView5
             // 
-            this.dataGridView5.AllowUserToAddRows = false;
-            this.dataGridView5.AllowUserToDeleteRows = false;
-            this.dataGridView5.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView5.Location = new System.Drawing.Point(6, 6);
-            this.dataGridView5.Name = "dataGridView5";
-            this.dataGridView5.RowTemplate.Height = 25;
-            this.dataGridView5.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView5.Size = new System.Drawing.Size(1126, 272);
-            this.dataGridView5.StandardTab = true;
-            this.dataGridView5.TabIndex = 1;
+            dataGridView5.AllowUserToAddRows = false;
+            dataGridView5.AllowUserToDeleteRows = false;
+            dataGridView5.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.DisplayedCells;
+            dataGridView5.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView5.Location = new Point(6, 6);
+            dataGridView5.Name = "dataGridView5";
+            dataGridView5.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridView5.Size = new Size(1126, 272);
+            dataGridView5.StandardTab = true;
+            dataGridView5.TabIndex = 1;
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.learn_price);
-            this.panel1.Controls.Add(this.backup);
-            this.panel1.Controls.Add(this.sales_cancellation);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.stock);
-            this.panel1.Controls.Add(this.daily_sales);
-            this.panel1.Controls.Add(this.add_product);
-            this.panel1.Location = new System.Drawing.Point(32, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1146, 64);
-            this.panel1.TabIndex = 6;
+            panel1.Controls.Add(learn_price);
+            panel1.Controls.Add(backup);
+            panel1.Controls.Add(sales_cancellation);
+            panel1.Controls.Add(button1);
+            panel1.Controls.Add(stock);
+            panel1.Controls.Add(daily_sales);
+            panel1.Controls.Add(add_product);
+            panel1.Location = new Point(32, 12);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1146, 64);
+            panel1.TabIndex = 6;
             // 
             // learn_price
             // 
-            this.learn_price.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.learn_price.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.learn_price.Image = ((System.Drawing.Image)(resources.GetObject("learn_price.Image")));
-            this.learn_price.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.learn_price.Location = new System.Drawing.Point(819, 3);
-            this.learn_price.Name = "learn_price";
-            this.learn_price.Size = new System.Drawing.Size(157, 56);
-            this.learn_price.TabIndex = 13;
-            this.learn_price.Text = "Fiyat Öğren";
-            this.learn_price.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.learn_price.UseVisualStyleBackColor = false;
-            this.learn_price.Click += new System.EventHandler(this.learn_price_Click);
+            learn_price.FlatStyle = FlatStyle.Popup;
+            learn_price.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            learn_price.Image = (Image)resources.GetObject("learn_price.Image");
+            learn_price.ImageAlign = ContentAlignment.MiddleLeft;
+            learn_price.Location = new Point(819, 3);
+            learn_price.Name = "learn_price";
+            learn_price.Size = new Size(157, 56);
+            learn_price.TabIndex = 13;
+            learn_price.Text = "Fiyat Öğren";
+            learn_price.TextAlign = ContentAlignment.MiddleRight;
+            learn_price.UseVisualStyleBackColor = false;
+            learn_price.Click += learn_price_Click;
             // 
             // backup
             // 
-            this.backup.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.backup.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.backup.Image = ((System.Drawing.Image)(resources.GetObject("backup.Image")));
-            this.backup.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.backup.Location = new System.Drawing.Point(982, 3);
-            this.backup.Name = "backup";
-            this.backup.Size = new System.Drawing.Size(157, 56);
-            this.backup.TabIndex = 12;
-            this.backup.Text = "Yedek Al";
-            this.backup.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.backup.UseVisualStyleBackColor = false;
-            this.backup.Click += new System.EventHandler(this.backup_Click);
+            backup.FlatStyle = FlatStyle.Popup;
+            backup.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            backup.Image = (Image)resources.GetObject("backup.Image");
+            backup.ImageAlign = ContentAlignment.MiddleLeft;
+            backup.Location = new Point(982, 3);
+            backup.Name = "backup";
+            backup.Size = new Size(157, 56);
+            backup.TabIndex = 12;
+            backup.Text = "Yedek Al";
+            backup.TextAlign = ContentAlignment.MiddleRight;
+            backup.UseVisualStyleBackColor = false;
+            backup.Click += backup_Click;
             // 
             // sales_cancellation
             // 
-            this.sales_cancellation.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.sales_cancellation.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.sales_cancellation.Image = ((System.Drawing.Image)(resources.GetObject("sales_cancellation.Image")));
-            this.sales_cancellation.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.sales_cancellation.Location = new System.Drawing.Point(656, 3);
-            this.sales_cancellation.Name = "sales_cancellation";
-            this.sales_cancellation.Size = new System.Drawing.Size(157, 56);
-            this.sales_cancellation.TabIndex = 11;
-            this.sales_cancellation.Text = "Satış İptali";
-            this.sales_cancellation.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.sales_cancellation.UseVisualStyleBackColor = false;
-            this.sales_cancellation.Click += new System.EventHandler(this.sales_cancellation_Click);
+            sales_cancellation.FlatStyle = FlatStyle.Popup;
+            sales_cancellation.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            sales_cancellation.Image = (Image)resources.GetObject("sales_cancellation.Image");
+            sales_cancellation.ImageAlign = ContentAlignment.MiddleLeft;
+            sales_cancellation.Location = new Point(656, 3);
+            sales_cancellation.Name = "sales_cancellation";
+            sales_cancellation.Size = new Size(157, 56);
+            sales_cancellation.TabIndex = 11;
+            sales_cancellation.Text = "Satış İptali";
+            sales_cancellation.TextAlign = ContentAlignment.MiddleRight;
+            sales_cancellation.UseVisualStyleBackColor = false;
+            sales_cancellation.Click += sales_cancellation_Click;
             // 
             // button1
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(493, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(157, 56);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Satış Durumu";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            button1.FlatStyle = FlatStyle.Popup;
+            button1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            button1.Image = (Image)resources.GetObject("button1.Image");
+            button1.ImageAlign = ContentAlignment.MiddleLeft;
+            button1.Location = new Point(493, 3);
+            button1.Name = "button1";
+            button1.Size = new Size(157, 56);
+            button1.TabIndex = 10;
+            button1.Text = "Satış Durumu";
+            button1.TextAlign = ContentAlignment.MiddleRight;
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // stock
             // 
-            this.stock.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.stock.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.stock.Image = ((System.Drawing.Image)(resources.GetObject("stock.Image")));
-            this.stock.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.stock.Location = new System.Drawing.Point(330, 3);
-            this.stock.Name = "stock";
-            this.stock.Size = new System.Drawing.Size(157, 56);
-            this.stock.TabIndex = 9;
-            this.stock.Text = "Stok Durumu";
-            this.stock.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.stock.UseVisualStyleBackColor = false;
-            this.stock.Click += new System.EventHandler(this.stock_Click);
+            stock.FlatStyle = FlatStyle.Popup;
+            stock.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            stock.Image = (Image)resources.GetObject("stock.Image");
+            stock.ImageAlign = ContentAlignment.MiddleLeft;
+            stock.Location = new Point(330, 3);
+            stock.Name = "stock";
+            stock.Size = new Size(157, 56);
+            stock.TabIndex = 9;
+            stock.Text = "Stok Durumu";
+            stock.TextAlign = ContentAlignment.MiddleRight;
+            stock.UseVisualStyleBackColor = false;
+            stock.Click += stock_Click;
             // 
             // daily_sales
             // 
-            this.daily_sales.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.daily_sales.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.daily_sales.Image = ((System.Drawing.Image)(resources.GetObject("daily_sales.Image")));
-            this.daily_sales.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.daily_sales.Location = new System.Drawing.Point(167, 3);
-            this.daily_sales.Name = "daily_sales";
-            this.daily_sales.Size = new System.Drawing.Size(157, 56);
-            this.daily_sales.TabIndex = 8;
-            this.daily_sales.Text = "Günlük Ciro";
-            this.daily_sales.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.daily_sales.UseVisualStyleBackColor = false;
-            this.daily_sales.Click += new System.EventHandler(this.daily_sales_Click);
+            daily_sales.FlatStyle = FlatStyle.Popup;
+            daily_sales.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            daily_sales.Image = (Image)resources.GetObject("daily_sales.Image");
+            daily_sales.ImageAlign = ContentAlignment.MiddleLeft;
+            daily_sales.Location = new Point(167, 3);
+            daily_sales.Name = "daily_sales";
+            daily_sales.Size = new Size(157, 56);
+            daily_sales.TabIndex = 8;
+            daily_sales.Text = "Günlük Ciro";
+            daily_sales.TextAlign = ContentAlignment.MiddleRight;
+            daily_sales.UseVisualStyleBackColor = false;
+            daily_sales.Click += daily_sales_Click;
             // 
             // add_product
             // 
-            this.add_product.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.add_product.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.add_product.Image = ((System.Drawing.Image)(resources.GetObject("add_product.Image")));
-            this.add_product.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.add_product.Location = new System.Drawing.Point(4, 3);
-            this.add_product.Name = "add_product";
-            this.add_product.Size = new System.Drawing.Size(157, 56);
-            this.add_product.TabIndex = 7;
-            this.add_product.Text = "Ürün Ekleme";
-            this.add_product.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.add_product.UseVisualStyleBackColor = false;
-            this.add_product.Click += new System.EventHandler(this.add_product_Click);
+            add_product.FlatStyle = FlatStyle.Popup;
+            add_product.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            add_product.Image = (Image)resources.GetObject("add_product.Image");
+            add_product.ImageAlign = ContentAlignment.MiddleLeft;
+            add_product.Location = new Point(4, 3);
+            add_product.Name = "add_product";
+            add_product.Size = new Size(157, 56);
+            add_product.TabIndex = 7;
+            add_product.Text = "Ürün Ekleme";
+            add_product.TextAlign = ContentAlignment.MiddleRight;
+            add_product.UseVisualStyleBackColor = false;
+            add_product.Click += add_product_Click;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.barcode);
-            this.groupBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.groupBox1.Location = new System.Drawing.Point(32, 89);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(324, 76);
-            this.groupBox1.TabIndex = 7;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Barkodu Okutunuz..";
+            groupBox1.Controls.Add(barcode);
+            groupBox1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            groupBox1.Location = new Point(32, 89);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(324, 76);
+            groupBox1.TabIndex = 7;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Barkodu Okutunuz..";
             // 
             // barcode
             // 
-            this.barcode.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.barcode.Location = new System.Drawing.Point(6, 28);
-            this.barcode.Name = "barcode";
-            this.barcode.Size = new System.Drawing.Size(312, 34);
-            this.barcode.TabIndex = 8;
-            this.barcode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.barcode_KeyDown);
+            barcode.Font = new Font("Segoe UI Semibold", 15F, FontStyle.Bold);
+            barcode.Location = new Point(6, 28);
+            barcode.Name = "barcode";
+            barcode.Size = new Size(312, 34);
+            barcode.TabIndex = 8;
+            barcode.KeyDown += barcode_KeyDown;
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.total);
-            this.groupBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.groupBox2.Location = new System.Drawing.Point(32, 184);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(324, 105);
-            this.groupBox2.TabIndex = 9;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Toplam Nakit Tutarı";
+            groupBox2.Controls.Add(total);
+            groupBox2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            groupBox2.Location = new Point(32, 184);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(324, 105);
+            groupBox2.TabIndex = 9;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "Toplam Nakit Tutarı";
             // 
             // total
             // 
-            this.total.Font = new System.Drawing.Font("Segoe UI Semibold", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.total.Location = new System.Drawing.Point(6, 33);
-            this.total.Name = "total";
-            this.total.Size = new System.Drawing.Size(312, 57);
-            this.total.TabIndex = 8;
+            total.Font = new Font("Segoe UI Semibold", 28F, FontStyle.Bold);
+            total.Location = new Point(6, 33);
+            total.Name = "total";
+            total.Size = new Size(312, 57);
+            total.TabIndex = 8;
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.piece);
-            this.groupBox3.Controls.Add(this.amount);
-            this.groupBox3.Controls.Add(this.unit_cost);
-            this.groupBox3.Controls.Add(this.label3);
-            this.groupBox3.Controls.Add(this.label55);
-            this.groupBox3.Controls.Add(this.label4);
-            this.groupBox3.Controls.Add(this.product_name);
-            this.groupBox3.Controls.Add(this.label1);
-            this.groupBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.groupBox3.Location = new System.Drawing.Point(374, 89);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(804, 200);
-            this.groupBox3.TabIndex = 10;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Ürün Bilgileri";
+            groupBox3.Controls.Add(piece);
+            groupBox3.Controls.Add(amount);
+            groupBox3.Controls.Add(unit_cost);
+            groupBox3.Controls.Add(label3);
+            groupBox3.Controls.Add(label55);
+            groupBox3.Controls.Add(label4);
+            groupBox3.Controls.Add(product_name);
+            groupBox3.Controls.Add(label1);
+            groupBox3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            groupBox3.Location = new Point(374, 89);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Size = new Size(804, 200);
+            groupBox3.TabIndex = 10;
+            groupBox3.TabStop = false;
+            groupBox3.Text = "Ürün Bilgileri";
             // 
             // piece
             // 
-            this.piece.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.piece.Location = new System.Drawing.Point(149, 108);
-            this.piece.Name = "piece";
-            this.piece.Size = new System.Drawing.Size(648, 37);
-            this.piece.TabIndex = 0;
-            this.piece.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            piece.Font = new Font("Segoe UI Semibold", 15F, FontStyle.Bold);
+            piece.Location = new Point(149, 108);
+            piece.Name = "piece";
+            piece.Size = new Size(648, 37);
+            piece.TabIndex = 0;
+            piece.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // amount
             // 
-            this.amount.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.amount.Location = new System.Drawing.Point(149, 145);
-            this.amount.Name = "amount";
-            this.amount.Size = new System.Drawing.Size(648, 37);
-            this.amount.TabIndex = 12;
-            this.amount.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            amount.Font = new Font("Segoe UI Semibold", 15F, FontStyle.Bold);
+            amount.Location = new Point(149, 145);
+            amount.Name = "amount";
+            amount.Size = new Size(648, 37);
+            amount.TabIndex = 12;
+            amount.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // unit_cost
             // 
-            this.unit_cost.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.unit_cost.Location = new System.Drawing.Point(149, 69);
-            this.unit_cost.Name = "unit_cost";
-            this.unit_cost.Size = new System.Drawing.Size(648, 37);
-            this.unit_cost.TabIndex = 12;
-            this.unit_cost.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            unit_cost.Font = new Font("Segoe UI Semibold", 15F, FontStyle.Bold);
+            unit_cost.Location = new Point(149, 69);
+            unit_cost.Name = "unit_cost";
+            unit_cost.Size = new Size(648, 37);
+            unit_cost.TabIndex = 12;
+            unit_cost.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(76, 145);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 28);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Tutar:";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI Semibold", 15F, FontStyle.Bold);
+            label3.Location = new Point(76, 145);
+            label3.Name = "label3";
+            label3.Size = new Size(63, 28);
+            label3.TabIndex = 0;
+            label3.Text = "Tutar:";
+            label3.TextAlign = ContentAlignment.MiddleRight;
             // 
             // label55
             // 
-            this.label55.AutoSize = true;
-            this.label55.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label55.Location = new System.Drawing.Point(74, 108);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(65, 28);
-            this.label55.TabIndex = 0;
-            this.label55.Text = "Adeti:";
-            this.label55.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            label55.AutoSize = true;
+            label55.Font = new Font("Segoe UI Semibold", 15F, FontStyle.Bold);
+            label55.Location = new Point(74, 108);
+            label55.Name = "label55";
+            label55.Size = new Size(65, 28);
+            label55.TabIndex = 0;
+            label55.Text = "Adeti:";
+            label55.TextAlign = ContentAlignment.MiddleRight;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(22, 69);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(117, 28);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Birim Fiyatı:";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI Semibold", 15F, FontStyle.Bold);
+            label4.Location = new Point(22, 69);
+            label4.Name = "label4";
+            label4.Size = new Size(117, 28);
+            label4.TabIndex = 0;
+            label4.Text = "Birim Fiyatı:";
+            label4.TextAlign = ContentAlignment.MiddleRight;
             // 
             // product_name
             // 
-            this.product_name.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.product_name.Location = new System.Drawing.Point(149, 28);
-            this.product_name.Name = "product_name";
-            this.product_name.Size = new System.Drawing.Size(648, 37);
-            this.product_name.TabIndex = 11;
-            this.product_name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            product_name.Font = new Font("Segoe UI Semibold", 15F, FontStyle.Bold);
+            product_name.Location = new Point(149, 28);
+            product_name.Name = "product_name";
+            product_name.Size = new Size(648, 37);
+            product_name.TabIndex = 11;
+            product_name.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(41, 28);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 28);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Ürün Adı:";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI Semibold", 15F, FontStyle.Bold);
+            label1.Location = new Point(41, 28);
+            label1.Name = "label1";
+            label1.Size = new Size(98, 28);
+            label1.TabIndex = 0;
+            label1.Text = "Ürün Adı:";
+            label1.TextAlign = ContentAlignment.MiddleRight;
             // 
             // approve
             // 
-            this.approve.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.approve.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.approve.Image = ((System.Drawing.Image)(resources.GetObject("approve.Image")));
-            this.approve.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.approve.Location = new System.Drawing.Point(32, 624);
-            this.approve.Name = "approve";
-            this.approve.Size = new System.Drawing.Size(149, 53);
-            this.approve.TabIndex = 12;
-            this.approve.Text = "Onayla (F7)";
-            this.approve.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.approve.UseVisualStyleBackColor = false;
-            this.approve.Click += new System.EventHandler(this.approve_Click);
+            approve.FlatStyle = FlatStyle.Popup;
+            approve.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            approve.Image = (Image)resources.GetObject("approve.Image");
+            approve.ImageAlign = ContentAlignment.MiddleLeft;
+            approve.Location = new Point(32, 624);
+            approve.Name = "approve";
+            approve.Size = new Size(149, 53);
+            approve.TabIndex = 12;
+            approve.Text = "Onayla (F7)";
+            approve.TextAlign = ContentAlignment.MiddleRight;
+            approve.UseVisualStyleBackColor = false;
+            approve.Click += approve_Click;
+            // 
+            // dataGridView6
+            // 
+            dataGridView6.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView6.Location = new Point(1203, 148);
+            dataGridView6.Name = "dataGridView6";
+            dataGridView6.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridView6.Size = new Size(509, 466);
+            dataGridView6.TabIndex = 13;
+            dataGridView6.CellContentClick += dataGridView6_CellContentClick;
+            dataGridView6.KeyDown += dataGridView6_KeyDown;
+            dataGridView6.MouseDoubleClick += dataGridView6_MouseDoubleClick;
+            // 
+            // groupBox4
+            // 
+            groupBox4.Controls.Add(productName);
+            groupBox4.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            groupBox4.Location = new Point(1203, 66);
+            groupBox4.Name = "groupBox4";
+            groupBox4.Size = new Size(324, 76);
+            groupBox4.TabIndex = 9;
+            groupBox4.TabStop = false;
+            groupBox4.Text = "Ürün Adı Giriniz:";
+            // 
+            // productName
+            // 
+            productName.Font = new Font("Segoe UI Semibold", 15F, FontStyle.Bold);
+            productName.Location = new Point(6, 28);
+            productName.Name = "productName";
+            productName.Size = new Size(312, 34);
+            productName.TabIndex = 8;
+            productName.TextChanged += productName_TextChanged;
             // 
             // Ana_Ekran
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MediumTurquoise;
-            this.CausesValidation = false;
-            this.ClientSize = new System.Drawing.Size(1213, 681);
-            this.Controls.Add(this.approve);
-            this.Controls.Add(this.tabControl);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.panel1);
-            this.Name = "Ana_Ekran";
-            this.Text = "Ana Ekran";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Shown += new System.EventHandler(this.Ana_Ekran_Shown);
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Ana_Ekran_KeyDown);
-            this.tabControl.ResumeLayout(false);
-            this.contextMenuStrip1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.tabPage2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            this.tabPage3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
-            this.tabPage4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
-            this.tabPage5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.MediumTurquoise;
+            CausesValidation = false;
+            ClientSize = new Size(1737, 681);
+            Controls.Add(groupBox4);
+            Controls.Add(dataGridView6);
+            Controls.Add(approve);
+            Controls.Add(tabControl);
+            Controls.Add(groupBox3);
+            Controls.Add(groupBox2);
+            Controls.Add(groupBox1);
+            Controls.Add(panel1);
+            Name = "Ana_Ekran";
+            Text = "Ana Ekran";
+            WindowState = FormWindowState.Maximized;
+            Shown += Ana_Ekran_Shown;
+            KeyDown += Ana_Ekran_KeyDown;
+            tabControl.ResumeLayout(false);
+            contextMenuStrip1.ResumeLayout(false);
+            tabPage1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            tabPage2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
+            tabPage3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView3).EndInit();
+            tabPage4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView4).EndInit();
+            tabPage5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView5).EndInit();
+            panel1.ResumeLayout(false);
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
+            groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
+            groupBox3.ResumeLayout(false);
+            groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView6).EndInit();
+            groupBox4.ResumeLayout(false);
+            groupBox4.PerformLayout();
+            ResumeLayout(false);
         }
 
         #endregion
@@ -622,5 +655,8 @@
         private ToolStripMenuItem change_price;
         private ToolStripMenuItem sil;
         private ToolStripMenuItem exceleAktarToolStripMenuItem;
+        private DataGridView dataGridView6;
+        private GroupBox groupBox4;
+        private TextBox productName;
     }
 }
