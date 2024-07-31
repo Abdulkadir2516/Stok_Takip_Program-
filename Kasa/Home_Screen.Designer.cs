@@ -101,11 +101,11 @@
             tabControl.Controls.Add(tabPage4);
             tabControl.Controls.Add(tabPage5);
             tabControl.HotTrack = true;
-            tabControl.Location = new Point(32, 306);
+            tabControl.Location = new Point(33, 315);
             tabControl.Multiline = true;
             tabControl.Name = "tabControl";
             tabControl.SelectedIndex = 0;
-            tabControl.Size = new Size(1146, 312);
+            tabControl.Size = new Size(953, 312);
             tabControl.TabIndex = 11;
             tabControl.SelectedIndexChanged += tabControl_SelectedIndexChanged;
             // 
@@ -144,7 +144,7 @@
             tabPage1.Location = new Point(4, 24);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(1138, 284);
+            tabPage1.Size = new Size(945, 284);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "1. Satış";
             tabPage1.UseVisualStyleBackColor = true;
@@ -159,7 +159,7 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(1126, 272);
+            dataGridView1.Size = new Size(933, 272);
             dataGridView1.StandardTab = true;
             dataGridView1.TabIndex = 0;
             // 
@@ -171,7 +171,7 @@
             tabPage2.Location = new Point(4, 24);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(1138, 284);
+            tabPage2.Size = new Size(967, 284);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "2. Satış";
             tabPage2.UseVisualStyleBackColor = true;
@@ -197,7 +197,7 @@
             tabPage3.Location = new Point(4, 24);
             tabPage3.Name = "tabPage3";
             tabPage3.Padding = new Padding(3);
-            tabPage3.Size = new Size(1138, 284);
+            tabPage3.Size = new Size(967, 284);
             tabPage3.TabIndex = 2;
             tabPage3.Text = "3. Satış";
             tabPage3.UseVisualStyleBackColor = true;
@@ -223,7 +223,7 @@
             tabPage4.Location = new Point(4, 24);
             tabPage4.Name = "tabPage4";
             tabPage4.Padding = new Padding(3);
-            tabPage4.Size = new Size(1138, 284);
+            tabPage4.Size = new Size(967, 284);
             tabPage4.TabIndex = 3;
             tabPage4.Text = "4. Satış";
             tabPage4.UseVisualStyleBackColor = true;
@@ -249,7 +249,7 @@
             tabPage5.Location = new Point(4, 24);
             tabPage5.Name = "tabPage5";
             tabPage5.Padding = new Padding(3);
-            tabPage5.Size = new Size(1138, 284);
+            tabPage5.Size = new Size(967, 284);
             tabPage5.TabIndex = 4;
             tabPage5.Text = "5. Satış";
             tabPage5.UseVisualStyleBackColor = true;
@@ -276,7 +276,7 @@
             panel1.Controls.Add(stock);
             panel1.Controls.Add(daily_sales);
             panel1.Controls.Add(add_product);
-            panel1.Location = new Point(32, 12);
+            panel1.Location = new Point(32, 3);
             panel1.Name = "panel1";
             panel1.Size = new Size(1146, 64);
             panel1.TabIndex = 6;
@@ -390,7 +390,7 @@
             // 
             groupBox1.Controls.Add(barcode);
             groupBox1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
-            groupBox1.Location = new Point(32, 89);
+            groupBox1.Location = new Point(33, 98);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(324, 76);
             groupBox1.TabIndex = 7;
@@ -410,7 +410,7 @@
             // 
             groupBox2.Controls.Add(total);
             groupBox2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
-            groupBox2.Location = new Point(32, 184);
+            groupBox2.Location = new Point(33, 193);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(324, 105);
             groupBox2.TabIndex = 9;
@@ -436,9 +436,9 @@
             groupBox3.Controls.Add(product_name);
             groupBox3.Controls.Add(label1);
             groupBox3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
-            groupBox3.Location = new Point(374, 89);
+            groupBox3.Location = new Point(375, 98);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(804, 200);
+            groupBox3.Size = new Size(611, 200);
             groupBox3.TabIndex = 10;
             groupBox3.TabStop = false;
             groupBox3.Text = "Ürün Bilgileri";
@@ -448,7 +448,7 @@
             piece.Font = new Font("Segoe UI Semibold", 15F, FontStyle.Bold);
             piece.Location = new Point(149, 108);
             piece.Name = "piece";
-            piece.Size = new Size(648, 37);
+            piece.Size = new Size(441, 37);
             piece.TabIndex = 0;
             piece.TextAlign = ContentAlignment.MiddleLeft;
             // 
@@ -457,7 +457,7 @@
             amount.Font = new Font("Segoe UI Semibold", 15F, FontStyle.Bold);
             amount.Location = new Point(149, 145);
             amount.Name = "amount";
-            amount.Size = new Size(648, 37);
+            amount.Size = new Size(441, 37);
             amount.TabIndex = 12;
             amount.TextAlign = ContentAlignment.MiddleLeft;
             // 
@@ -466,7 +466,7 @@
             unit_cost.Font = new Font("Segoe UI Semibold", 15F, FontStyle.Bold);
             unit_cost.Location = new Point(149, 69);
             unit_cost.Name = "unit_cost";
-            unit_cost.Size = new Size(648, 37);
+            unit_cost.Size = new Size(441, 37);
             unit_cost.TabIndex = 12;
             unit_cost.TextAlign = ContentAlignment.MiddleLeft;
             // 
@@ -508,7 +508,7 @@
             product_name.Font = new Font("Segoe UI Semibold", 15F, FontStyle.Bold);
             product_name.Location = new Point(149, 28);
             product_name.Name = "product_name";
-            product_name.Size = new Size(648, 37);
+            product_name.Size = new Size(441, 37);
             product_name.TabIndex = 11;
             product_name.TextAlign = ContentAlignment.MiddleLeft;
             // 
@@ -529,7 +529,7 @@
             approve.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
             approve.Image = (Image)resources.GetObject("approve.Image");
             approve.ImageAlign = ContentAlignment.MiddleLeft;
-            approve.Location = new Point(32, 624);
+            approve.Location = new Point(33, 633);
             approve.Name = "approve";
             approve.Size = new Size(149, 53);
             approve.TabIndex = 12;
@@ -540,11 +540,12 @@
             // 
             // dataGridView6
             // 
-            dataGridView6.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView6.Location = new Point(1203, 148);
+            dataGridView6.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
+            dataGridView6.Location = new Point(992, 166);
             dataGridView6.Name = "dataGridView6";
+            dataGridView6.RowHeadersVisible = false;
             dataGridView6.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView6.Size = new Size(509, 466);
+            dataGridView6.Size = new Size(340, 466);
             dataGridView6.TabIndex = 13;
             dataGridView6.CellContentClick += dataGridView6_CellContentClick;
             dataGridView6.KeyDown += dataGridView6_KeyDown;
@@ -554,9 +555,9 @@
             // 
             groupBox4.Controls.Add(productName);
             groupBox4.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
-            groupBox4.Location = new Point(1203, 66);
+            groupBox4.Location = new Point(992, 84);
             groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(324, 76);
+            groupBox4.Size = new Size(340, 76);
             groupBox4.TabIndex = 9;
             groupBox4.TabStop = false;
             groupBox4.Text = "Ürün Adı Giriniz:";
@@ -566,7 +567,7 @@
             productName.Font = new Font("Segoe UI Semibold", 15F, FontStyle.Bold);
             productName.Location = new Point(6, 28);
             productName.Name = "productName";
-            productName.Size = new Size(312, 34);
+            productName.Size = new Size(328, 34);
             productName.TabIndex = 8;
             productName.TextChanged += productName_TextChanged;
             // 
@@ -576,7 +577,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.MediumTurquoise;
             CausesValidation = false;
-            ClientSize = new Size(1737, 681);
+            ClientSize = new Size(1351, 698);
             Controls.Add(groupBox4);
             Controls.Add(dataGridView6);
             Controls.Add(approve);

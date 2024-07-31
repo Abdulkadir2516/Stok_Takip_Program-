@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\baltusmec\\Desktop\\Yeni klasör (2)\\Stock_Tracking_System\\Kasa\\Kasa.csproj": {}
+    "C:\\Users\\baltusmec\\Desktop\\Stock_Tracking_System\\Kasa\\Kasa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\baltusmec\\Desktop\\Yeni klasör (2)\\Stock_Tracking_System\\Kasa\\Kasa.csproj": {
+    "C:\\Users\\baltusmec\\Desktop\\Stock_Tracking_System\\Kasa\\Kasa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\baltusmec\\Desktop\\Yeni klasör (2)\\Stock_Tracking_System\\Kasa\\Kasa.csproj",
+        "projectUniqueName": "C:\\Users\\baltusmec\\Desktop\\Stock_Tracking_System\\Kasa\\Kasa.csproj",
         "projectName": "Kasa",
-        "projectPath": "C:\\Users\\baltusmec\\Desktop\\Yeni klasör (2)\\Stock_Tracking_System\\Kasa\\Kasa.csproj",
+        "projectPath": "C:\\Users\\baltusmec\\Desktop\\Stock_Tracking_System\\Kasa\\Kasa.csproj",
         "packagesPath": "C:\\Users\\baltusmec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\baltusmec\\Desktop\\Yeni klasör (2)\\Stock_Tracking_System\\Kasa\\obj\\",
+        "outputPath": "C:\\Users\\baltusmec\\Desktop\\Stock_Tracking_System\\Kasa\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

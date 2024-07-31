@@ -374,6 +374,7 @@
             numericUpDown1.Name = "numericUpDown1";
             numericUpDown1.Size = new Size(77, 29);
             numericUpDown1.TabIndex = 5;
+            numericUpDown1.Value = new decimal(new int[] { 60, 0, 0, 0 });
             // 
             // multiple_add
             // 

@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Kasa
-build_property.ProjectDir = C:\Users\baltusmec\Desktop\Yeni klasör (2)\Stock_Tracking_System\Kasa\
+build_property.ProjectDir = C:\Users\baltusmec\Desktop\Stock_Tracking_System\Kasa\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

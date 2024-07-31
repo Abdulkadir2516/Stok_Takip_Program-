@@ -155,7 +155,9 @@ namespace Kasa
 
                         if (Convert.ToInt16(icerik[5]) - adet <= Convert.ToInt16(icerik[4]))
                         {
-                            MessageBox.Show("Bu ürünün alt limitine ulaþýldý");
+                            //MessageBox.Show("Bu ürünün alt limitine ulaþýldý");
+                            Console.Beep();
+                            Console.Beep();
 
                             //barcode.BackColor = Color.Red;
 
@@ -408,6 +410,7 @@ namespace Kasa
 
             total.Text = content[0].ToString();
             tablo_doldur();
+            barcode.Focus();
 
         }
 
@@ -516,6 +519,7 @@ namespace Kasa
             satislar.DataSource = baglan.fill_table("Select Tarih, Saat, Barkod, Ürün_adý as Ürün_Adý , Adet, Birim, Satis_Fiyati as Birim_Fiyatý, Tutar FROM anlýk_satýs WHERE ýd = '" + satislar.Name.ToString() + "' order by saat desc", "anlýk_satýs");
 
             total.Text = total_amount(satislar, 7).ToString();
+            barcode.Focus();
 
         }
 
@@ -566,7 +570,7 @@ namespace Kasa
         private void productName_TextChanged(object sender, EventArgs e)
         {
             baglan baglan = new baglan();
-            dataGridView6.DataSource = baglan.fill_table("Select * from mfw_gold_stoklar where Ürün_adý like '%" + productName.Text + "%'", "mfw_gold_stoklar");
+            dataGridView6.DataSource = baglan.fill_table("Select barkod_no, Ürün_Adý, Satýs_Fiyatý, Stok_Miktarý from mfw_gold_stoklar where Ürün_adý like '%" + productName.Text + "%'", "mfw_gold_stoklar");
 
         }
 

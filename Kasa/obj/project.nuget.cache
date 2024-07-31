@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QClIW+zzE6ztDQQT70nT2b/pJFP3T09zaKPa5JEa0nb88LQhn9Vj3D6Mpzd3/ShPZbnkfu6NLQhO/7bfqbCXrg==",
+  "dgSpecHash": "4rTjLLydNDgMAvTNalixxsc8ovLDgXuFL/QyB+2AF1tTvqv1IZEg+hPygnOBJMhGWxwC454SGqMt6snMSatNvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\baltusmec\\Desktop\\Yeni klasör (2)\\Stock_Tracking_System\\Kasa\\Kasa.csproj",
+  "projectFilePath": "C:\\Users\\baltusmec\\Desktop\\Stock_Tracking_System\\Kasa\\Kasa.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\baltusmec\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\baltusmec\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",
